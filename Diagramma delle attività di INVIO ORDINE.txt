@@ -1,0 +1,24 @@
+https://editor.plantuml.com/uml/jP0nRiCm34Ltdk8ZKpAsOxnaI0Ol2T2XEs6n3W5932JQWq_Jk_HYKTqKo0Ko4U3d_u_uX-fSV4gHoDMZq55vB9mI8qYC0dRNMVtd6q6nwS-V_GMNZsD_Fcr8Si2VYzOOsizQ9uwwBBoePO6Le5awqgzjij2Ktw0RZvmak-tWLybuajvsXFqerLTtcr8oTssdULPxn26tpnXLLWQXkXKT7gg2QxL1sGqS8tWORChUhMStWiGg_q36U-Ez5aXqQ3MrWky0
+
+
+@startuml
+
+title
+Diagramma delle attività di "INVIO ORDINE"
+end title
+
+start
+:visualizzazione ordine;
+if(modalità pagamento) then (modalità 1)
+ :gestione esterna;
+ :invio ordine nella sezione
+ storico ordini associato all account;
+ stop
+ else(modalita 2)
+  :gestione esterna;
+ :invio ordine nella sezione
+ storico ordini associato all account;
+ stop
+
+
+@enduml

@@ -1,0 +1,87 @@
+https://editor.plantuml.com/uml/rLR1Rjim3BqRy3yGkIovz0FImpfq1LPWMu5r_G1EPbm2icH8SWRaQtRSON-H7nibsubZnybbm3OdGAIO8X_9nsVV-O0kD9NEiy11KvwzPomTLXL2GLeJO0YyvR3_0GN30jxTtpyyFp_5twUNpryNUKQcWEviSfPd81TlbhNrdhotZkBH1WoWKhOnuUqAmYiPM1gxQgsxQrsZzrYMR06rHl2qOsi879NiWyEqkpqUyS7MxOwqfwNdLLnt_vY2DscvVZIU77l5K27hmNa1YSOq4aemsfgw20Tyul1WF8VjWwsend80wuYgXNNCCc62la2mLDO4PxKMbr8dnMtuX1AmwCi5FPpQaISJQ52qDHzoY_Y-MrVSdfJqxoO9VQOzE53MEGe1puPlCJGX9WdQbYK6Eqhd4iAHwG3Y42QCwfEesiChk9BWhF0ImiDbhE1qNBuAwTb8viBHwXi3WqBF8D-2jj52OK5IVICJzIRFJaTgsi65C41GrXfDUFdqKS8OyK5UoJJ21fssv_74IOoGfdVNZbGZhRUpB8b6M_ODQjxjEXvUidKSh3COQVfubOBJPipNCIQx_mcD-DuALq5WE5ixbipPq8s83CCX-FdgpSMPhyyiD_xjJ6V3pALw5CNfDizarHN2m5XhabmvYXeoLd6__tLTGRwSb_2HZ8mU2JAPIGklJkL01fNCM9EqhjFKa93qg0SD6_1z_60ut_IHqMcZ_qXdOuJ5JUiWJRnW1uTrruqu-Y3rw9NXf9EZVezK-NzE2dg2JdbxNAKNaRXkFtUoazUQtm00
+
+
+@startuml
+title
+Diagramma delle attività di " ACCESSO ACCOUNT"
+end title
+start
+    if(possessore di un account?) then (no)
+           :passaggio alla sezione registrazione;
+        stop
+    else(si)    
+    endif
+   :Inserisci mail;
+        if(annullare operazione?) then (si)
+       :passaggio alla sezione Homepage;
+       stop
+     else(no)
+     endif 
+    if (controllo associazione mail ad account ) then (presente)
+        :inserisci password;
+             if(annullare operazione?) then (si)
+       :passaggio alla sezione Homepage;
+       stop
+     else(no)
+     endif 
+         if (password corretta?) then (si)
+            :utente loggato;
+            :passaggio alla sezione Home;
+            stop
+         else(no) 
+              if(password dimenticata?) then (si)
+                     note right
+in entrambi i casi si deve ricadere nell'
+attività di "inserisci password" ma 
+plantUML non riesce a farlo
+                    end note
+                :recupero password;
+                :visualizzazione password;
+                :ritorna ad Inserisci password;
+                stop
+                       note right
+non è una vera e propria fine.
+si ritorna a "inserisci password" 
+                      end note
+                else(no) 
+                :ritorna ad Inserisci password;
+                stop
+                       note right
+non è una vera e propria fine.
+si ritorna a "inserisci password"
+                        end note
+             endif
+        endif
+      
+
+ else(non presente)
+     if (creare account?) then (sì)
+       :passaggio alla sezione Registrazione;
+       stop
+     else (no)
+        if(mail dimenticata?) then (si)
+        :inserisci cellulare associato all account;
+        :visualizza mail;
+        :ritorna ad Inserisci mail;
+        stop
+        note right
+non è una vera e propria fine.
+si ritorna a "inserisci mail".
+non riesco a rappresentarlo il plantUML
+        end note
+        else(no)
+        :ritorna ad Inserisci mail;
+        stop
+        note right
+non è una vera e propria fine.
+si ritorna a "inserisci mail".
+non riesco a rappresentarlo il plantUML
+        end note       
+        endif
+   endif
+   
+endif
+
+
+
+@enduml

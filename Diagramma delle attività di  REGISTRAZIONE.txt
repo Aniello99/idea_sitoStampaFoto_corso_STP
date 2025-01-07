@@ -1,0 +1,54 @@
+https://editor.plantuml.com/uml/dLJDZjD03BvNwZjOUqebs0V8Ih3Libfw0LGuSJE9crfCngFvQKMVXYC7Jhn2NmpFD4chmag8gcecus_ip_Dzxds8w6FgpNmMEHgQpzumTXxx7g4bOmWmHjvnF7w7bk46rezFgu-VrilFg_Vl7c_cCx8j32Vdiv8iBy2J8uoWgnfMDf1dJz0ZcplTAX_UL6XjCWOr8euy7bWilLv0t9A5Al1YX4BjC0JiEXP0FG212XRUIayEEvgIGeZYXXSoWIehOnObofjCI7-hp0GwrgOqiJIC4G5RI1QmQIJPED4O4zHJ5rQBmgbYpUDc8rtUlzvcBUhvS108ZbekhAyn3yiFPzov4okHm7EtZTEDGOEzOzYm1V5w2s95RoudHSEt0qo3IVV3ZaroJc2JOlBoOemQ21mY5Nbt11rwjB5qiAK14pKRj1XPeQYf6Y5F2YhXh7UcLbu6bI-kGIsJYgAdHhvWytMFlgsv9JIzPg5C8SFW-4E9yauQAT1AYGVg4iU9l9RjfU35HY_6Q2Hb6vAAjhYxfB3VidgroXSaa5qbgY07gBvHE0duyfMLooDdGREvzkBRAyhgip6Y7LjmwVWhLwRiWUpR_oDGrjc3sjI6l0fnRRbm_3cQjbvJftAfsCiJQFJ7vFChb__hf9pFvx7GbNvBggcupgVpiiDYRfqBardakVbZD9wlkcooKcE3V-K-3VfpESORk9YTWVFmkDUd_e7z1W00
+
+@startuml
+title
+Diagramma delle attività di " REGISTRAZIONE"
+end title
+
+start
+
+ repeat 
+ : Inserire mail;
+      if(annullare operazione?) then (si)
+       :passaggio alla sezione Homepage;
+       stop
+     else(no)
+     endif 
+ if (mail già associata ad un account?) then (no)
+   :Inserire nome ;
+   :inserire cognome;
+   :inserire indirizzo spedizione;
+   :inserire CAP indirizzo;
+       note right
+      i campi fin ora sono opzionali.
+     in uno sviluppo futuro,
+     il sistema deve garantire che
+     tali dati siano coerenti
+   end note
+   repeat :inserire cellulare ;
+   backward:idealmente il cell è univoco
+   (in seguito svilupperemo il controllo su di esso);
+   repeat while (campo nullo?) is (yes)
+   ->no;
+   repeat:Inserire password;
+   backward:la password non può essere nulla;
+   repeat while (campo nullo?) is (yes)
+   ->no;
+
+   if (conferma account?) then (sì)
+     :Registra Account;
+     stop
+   else(no)
+     :passaggio alla sezione Homepage;
+     stop
+   endif
+ 
+ else(sì)
+   if(provare con altra mail?) then (no)
+     :passaggio alla sezione Acesso account;
+     stop
+   else (si)
+  :passaggio alla sezione Registrazione;
+   endif
+endif
+@enduml

@@ -1,0 +1,192 @@
+https://editor.plantuml.com/uml/vLhTRjiu5hutu7SWUjCKY8Cc_UzqYZ5STsiWZGFRwKKnGC58j4CC9ReIvTdDphpBNkxrla9VRBzpg1_AaPsas04Mw02JIXHrUCvtllD3oltUBxcJcIiIq-yPjNJ2MP7frPKJiSvKvBHD-xtyDvskPIOJ8IDdixdxXr52_gvocwX-hz_ZKN7XLEemdeiB6bpBw3UvKaB7Idx9jRDp9vErV6-T_HBPBBTVvejpyK-QAl1VaQj8vafSZ1wJY0VJ-Nmy-pJyF9cUZSNfPBwOd4t5-Mpy-VE4NXWC9ky6WtuFxzWlSO4_Z_kzmI1MUPJfQsYjwAbvM7YbDeM5oakPAL6aKgnbQc6EZgI8bHQvoZPuITZbKcLEYrzJ4KlZXoCbbFXQI8DfDhL2YtMchZ6PNjp8ZEvjR9tJ_TxFFyFiJ0qYcyPUYTSYLNcE9V70vgxxoT7HN7qjL7ejZuvWHAqq_cGIqunvADThqcfWr0gGnifKgqAXLEJIn5OOIODvhXDO1S-aP1vDNf7kM1cMmQgO35b3C2u8YtojSYaIdT9xlwO33Gq91r8XOJtW5MDNAud5hC2GFInLmz8a0Ue0NC92YKWwjR9q5JV8u3fVsrHVQiFW3d9b5A4WK-YTo9J-jooBn1AvZ5DPAftUgEtRGDRXHfh2ILPGqMg4iMBtgSPzIvb2k1H45P4N5fXiLAngJ_Px3pm96meUCmNdY-77yw5uFrrCnVn2Z8QpnR2RUyUtSozdzcUgH8kK9PIM20Se1UKo9xiPL0kA5Sm7QU2RoY47qf13oAy9kHp2o7H8W_FzlKV3-AKEmOmrfczKXj4bd8uPhd2E4GGL8htKqPNNKdgj7jtaRkhNo309mlBSHfhO8OqHfQvoawa4v3GYBUp6DdHTAuH-Yd2wlgPN89GcaLlO6nRgqlgvpBxzoxEMfi4ht_uD97o4obAzN85Se0xH7BaeyJeWXJbfr5tYYaImHQLxskvWgYvrZl20Yau3E0eUddaG6TXD4GR5hP6PrV4Z2Xy_tn1FWNyEuRhKbcKt8cc4y2yoUG1GHEaXKGfMZmJ35rbZFMl4fSrYsveRhYm6tklrGnwoAG1BP0V7JxeulXYVxg3uoJqepccba2N96rITCdyfn-NtS9oK-X4fJdQ7TEnWR3sbOfQy4xEUCBFEnxFvz6nuEldykQpYYo4knMXwndJhfjcJssaMPQeYcPE0k8stPBp9R6zkMULORy_AF5BchysrtyT3ikL7u66ebX_nRYJzjd9aA_zL676F4FGK-hxyVBgBduFvXybiSGj3dzwFeOFyIcVk-pYAIoEM6HoZ_k_ecaYqbI35ZqhPqgzt86sDr3PnqGmtlO2ZMVA-L7wsWyhdK_Igem-JuQS9q_byE9lkgkpFxa5eT1m0EBhISgExd7M3q-W7B0qMD022slyDaMb3G_iQdbQlSa3SkABeIZ2i4ms1noV4HGaQPvhRfFlmF3Jtn-Hvw6_IiaIwtSRQB97RSF4KZozS5JZf5aO_PqRFnd_3bd_6PEvcxVCxixO6bffHG1CHdBVGCBLfYueh3Jzas7ph7AWvUoGEQ4gaMxFyZfvsgvbVfqXT4nQAu4gaDXtTfiWrgQl8tP3WsL99uC2hYORSOXJ5HUXQMAVJIA_XyTkz33lO37z7_j0fz6S_aNv-2AXXbaguMC4WBq4ORmCHaK6fU2-5Z4dFIccI8Tf2sENCwqe8OGX1bKcGKMCOYAd3gL4pfGXlQnxPLSSedMQ08TUsLAX-C1gURpqCH06k0ZihTM0lBuqciC6SHziYrh3zT-p9H3XDFWe9JY79dfM1HUIul79SSxJXupDN8MgfTMt4ReDzAOFCY4nKvrLe8PDBBRD6bhV4qHQM4YfnKcPGjyqMIAQyVLGUt8ZQ6nm0bPrueKMhmz0AGsUAd1j89TBmYbx2xGVo66S1iNqC-88JmN0q6i_dKu5_fnTdY-vSyEBsN41Mn1wJ-sM2lLdWPY3Nx_dKNPsRKI9rD83Ij3RAbMuWOdYK_IcTp9n6C6oLLdt81rPDAgjpWOg5GYrmhYZBCzYeK_NTcQ7qTIlw6hvNlDcN7XIFXeoa_4ULg7cNGg8bjGwaWDLqw1bgiJiTSG818AuyiMaH3_0tZFMXDzyJUa6OgImZHQ3hklZsd-hi6EwF2dZ7-dcEJf4f5eg4nkh4WP2IQLeOlcPB6DSgX0AJxx1IFRTRQ4SHVScnCpdxD9cAwUpTP5SHVNbxu9JyodZDab-7A7mMYg_boWy_X3krIZZDK2kbHN3us-OoDJYvehDeQfz2Dj-_CnGS4NKqR1Tj641LyaQjHGF5PZ2mLGXSsrJwupqaySXwItNOrjslbTBfHfTIV4sofDH6rY3o83iyHil9uKqjChMjAQ5QvuAO6ihWdQ2sRBIYUkvpgsyz6ql8EzmkTn3a5HDaD1jN-uNPzDrqiMlB-wg39i01K5KL77JT45LLdLpvj3r-YDSHASHjM6bW6M02o3fTSPghE48bZbo9kjLGBoHEfhgEwVsdee_JTvFtaz6GJkXduzFJ7LOSx_r2n9weqkpTo1kqP1IjXZ99_Nb8bPrysOSV1fxji7zhcIQlj-Bk_X5oa_rXmB3DoCA5uOAKs9YsFbkjvUrKv_SYsSWbbjQVM4eBfGzsM96bTZjFQvIBmbbiOeZp46GYtZNIRePQAF_nYcj7ss5TeDQ1mpr_NVODAjBNGkT--qXPoeRPeujUnpkYH8GRxbr1Sxpten35pLLJo_o9B5L97pUYZ1k4rcwOf5WX_3DwgzupxDfXqb4FRNkvbwpguLNJbcEAgHbmjVM9aK-ZV0UepUvDB9ePcioDpqRdTCAXcChUINnBtrNBrQlQkJ__TwfQrnZwAArSflrnmtuCRiP2s7wPFORHxZmcDO0x1uZUqDTA_8KNMfc0-hoSBTSEAFWp3-9VYG6HJuQasnLdOMCTgCbMxl7neDfjxF5JLJRAzd_B0aQYKeB8SYLBptA4_4b1SW6wlwKlzStby-RoHNFvihhaaYFuNShQHpnFl8OEaIbY5GuZwbhZhpfdl_2ZpzkZBqiHZyDXUl1OlFbZC60jNiCbCAzwygfwGilowOy7glNiPC-p9tkUFTtpxDdsCmQ1q28CwEOal7aItZmDRvvLDumlTem8BRiMTYdyZEvAJNLQjmjrlyVTDP80SmPFC4FvqxHbaN9VqMIZVWyWqWPLrSi-u52Pd8rEBzwD3obTbMlJ6eUi0MsvwO38duej9V6JQ4RhvHjhLkKs9sWVo5qP_UW0_BxKERRvCfZAQzGdWuVjLva3j7VzA4lR_GW74qeaOfcpclhxcpUvJyg9hZQo7ZAAPrjl7z--fKtg0weBPyULrRGImdH-FXvDmaDOBz28yNmnFflp4AihwxDtf17kzZ7Cg5TjK6F19PKYUOcDkoYFGVaig7xE8Me38casw2BddrQOXynrRsziDsf3mADffmgIgLthaRFfrnb8NIHCfdmMMUwPeae1Nbg77ARv7fkJ2fkW_l4lPl2czakzvdp5HpR-kqHkV_9zGRmrS9bHOnD8yiEe5ACgbskVULqpy5EvsIhtUfI9DzoviIsWJzt4OHclz1CYyYzWDVyQgj_xBm00
+
+
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Utente as U
+
+package idea_sitoStampaFoto_corso_STP {
+
+    usecase UC0 as "OSSERVAZIONE LISTINO PREZZI
+  --ID--
+caso_duso_0
+--descrizione--
+l'utente vuole fare una panoramica dei servizi offerti \n dal service e quali sono i prezzi dei vari prodotti
+==
+pre-condizione: nessuna
+post-condizione: nessuna
+..Sequenza..
+-l'utente entra nell'app \n -legge del prodotto in saldo la prossima domenica e degli sconti al di sopra di una spesa minima \n-indifferentemente se loggato o meno, entra in una delle varie categorie di prodotti disponibili \n -selezionando man mano una tra le alternative le alternative disponibili,valuta se le proposte \n del service fanno a caso suo e vede i prezzi
+"
+
+  usecase UC1 as "STAMPA FOTO SU CARTA
+  --ID--
+caso_duso_1
+--descrizione--
+l'utente vuole stampare delle proprie foto su carta
+==
+pre-condizione: l'utente deve essere loggato(almeno al momento del caricamento \n delle foto, dopo aver definito tutte le specifiche della carta)
+post-condizione:nel carrello associato all utente avremo il nuovo prodotto personalizzato con il suo prezzo\n che sarà scontato se è l'offerta della settimana e sommato al totale
+..Sequenza..
+-l'utente entra nella sezione stampa foto su carta \n -fissa il tipo di stampa(classica o polaroid) \n-fissa le dimensioni della foto \n -fissa la finitura(per le foto classice) o il colore del bordo(per le foto polaroid) \n -carica le foto \n -conferma
+"
+
+  usecase UC2 as "STAMPA FOTO SU TELA
+  --ID--
+caso_duso_2
+--descrizione--
+l'utente vuole stampare una sua propria foto su tela
+==
+pre-condizione: l'utente deve essere loggato(almeno al momento del caricamento \n della foto, dopo aver definito tutte le specifiche della tela)
+post-condizione:nel carrello associato all utente avremo il nuovo prodotto personalizzato con il suo prezzo\n che sarà scontato se è l'offerta della settimana e sommato al totale
+..Sequenza..
+-l'utente entra nella sezione stampa foto su tela \n -fissa le dimensioni della tela \n -carica la foto \n -conferma
+"
+
+  usecase UC3 as "PERSONALIZZAZIONE TAZZA CON FOTO
+  --ID--
+caso_duso_3
+--descrizione--
+l'utente vuole creare una tazza personalizzata con la stampa di una foto a sua scelta
+==
+pre-condizione: l'utente deve essere loggato(almeno al momento del caricamento \n della foto, dopo aver definito tutte le specifiche della tazza
+post-condizione:nel carrello associato all utente avremo il nuovo prodotto personalizzato con il suo prezzo\n che sarà scontato se è l'offerta della settimana e sommato al totale
+..Sequenza..
+-l'utente entra nella sezione personalizzazione tazza con foto \n -fissa il colore della tazza tra i disponibii -carica la foto \n -conferma
+"
+
+  usecase UC4 as "PERSONALIZZAZIONE T-SHIRT CON FOTO
+  --ID--
+caso_duso_4
+--descrizione--
+l'utente vuole creare una t-shirt personalizzata con la stampa di una foto a sua scelta sul fronte
+==
+pre-condizione: l'utente deve essere loggato(almeno al momento del caricamento \n della foto, dopo aver definito tutte le specifiche della maglietta
+post-condizione:nel carrello associato all utente avremo il nuovo prodotto personalizzato con il suo prezzo\n che sarà scontato se è l'offerta della settimana e sommato al totale
+..Sequenza..
+-l'utente entra nella sezione personalizzazione t-shirt con foto \n -fissa il colore della maglietta tra i disponibili -fissa la taglia -carica la foto \n -conferma
+"
+
+  usecase UC5 as "PERSONALIZZAZIONE PORTACHIAVI CON PAROLA
+  --ID--
+caso_duso_5
+--descrizione--
+l'utente vuole creare un portachiavi personalizzato con la stampa di una parola su di esso
+==
+pre-condizione: l'utente deve essere loggato(almeno al momento di scegliere la parola (che ha come limite 12 caratteri) \n , dopo aver definito tutte le specifiche del portachiavi
+post-condizione:nel carrello associato all utente avremo il nuovo prodotto personalizzato con il suo prezzo\n che sarà scontato se è l'offerta della settimana e sommato al totale
+..Sequenza..
+-l'utente entra nella sezione personalizzazione portachiavi con parola \n -fissa la forma del portachiavi \n -definisce la parola \n -conferma
+"
+
+  usecase UC6 as "REGISTRZIONE
+  --ID--
+caso_duso_6
+--descrizione--
+l'utente vuole creare il suo proprio accont
+==
+pre-condizione: l'utente non deve essere già reggistrato. (non ci deve essere nessun altro account con la stessa mail)
+post-condizione: si creerà un nuovo account e un carrello collegato
+..Sequenza principale..
+-l'utente entra nella sezione registrazione \n -inserisce mail \n -il sistema controlla se la mail è già associata ad un account \n - il sistema conferma che la mail non è collegata a nessun account \n -l utente inserisce nome \n -inserisce cognome \n -inserisce indirizzo \n - inserisce CAP indirizzo \n -inserisce cellulare(obbligatorio) \n - inserisce password (obbligatoria)\n -conferma e si crea account \n
+..sequenza alternativa..
+-se il sistema nota che la mail è già associata ad un account fa scegliere all'utente di cambiare la mail inserita o di spostarsi nella sezione accesso. \n -se l utente non conferma la registrazione, il sistema lo riporta alla schermata Home 
+"
+ 
+    usecase UC7 as "ACCESSO ACCOUNT
+  --ID--
+caso_duso_7
+--descrizione--
+l'utente vuole accedere al proprio accont
+==
+pre-condizione: l'utente deve essere già reggistrato.
+post-condizione:l'utente sarà loggato e potrà completare la creazione degli articoli personalizzati, vedere il suo carrello ed effettuare un ordine
+..Sequenza principale..
+-l'utente entra nella sezione accesso account \n -inserisce la mail \n -il sistema controlla se esiste un account con tale mail \n - si inserisce la password associata all'account \n -il sistema controlla se la è corretta \n -il sistema logga l utente \n
+..Sequenza alternativa..
+-se la mail è errata si può fare un recupero mail tramite numero cellulare o annullare l'accesso \n -se la password è errata si può fare un recupero password o annullare l'accesso 
+"
+
+  usecase UC8 as "INVIO ORDINE
+  --ID--
+caso_duso_8
+--descrizione--
+l'utente vuole effetturare l ordine, cioè pagare l 'insieme di tutti i prodotti personalizzati presenti nel suo carrello
+==
+pre-condizione: l'utente deve essere loggato e il carrello non deve essere vuoto
+post-condizione: l'ordine passa nella zona di storico ordini associato a
+..Sequenza..
+-l'utente entra nella sezione invio ordine \n -osserva l ordine \n -può decidere di eliminare articoli dall ordine \n -conferma e viene riportato alla zona di pagamento
+"
+
+  usecase UC9 as "CREAZIONE PRODOTTO
+  --ID--
+caso_duso_9
+--descrizione--
+questo non è un vero e proprio caso d'uso ma si declina nei singoli prodotti che il cliente vuole personalizzare
+"
+
+  usecase UC10 as "MODIFICA CARRELLO
+  --ID--
+caso_duso_10
+--descrizione--
+l'utente può vedere i prodotti personalizzati presenti nel carrello con relativi prezzi e prezzo totale, eliminare i singoli prodotti personalizzati ed effetturare l ordine
+==
+pre-condizione: l'utente deve essere loggato
+post-condizione:il carrello può risultare modificato
+..Sequenza..
+-l'utente entra nella sezione modifca carrello \n -vede i prodotti al suo inerno \n -il sistema in automantico calcola somma e sconti \n - l'utente può eliminare i singoli articoli o procedere all acquisto di tutto il carrello
+"
+
+  usecase UC11 as "CREAZIONE PRODOTTO PERSONALIZZATO
+  --ID--
+caso_duso_11
+--descrizione--
+l'utente non ha controllo su tale caso d uso ma è il sistema in automantico a generale un nuovo prodotto personalizzato \n dopo che l utente ha confermato le modifiche del prodotto scelto. \n il prodotto personalizzato creato sarà visibile ed eliminabile dal utente tramite carrello
+==
+pre-condizione: utente ha confermato tutti i parametri di un nuovo prodotto personalizzato
+post-condizione:creazione dell prodotto personalizzato con idententificativo univoco nel carrello e possibilità di essere eliminato dal carrello
+..Sequenza..
+-l'utente conferma la creazione di un prodotto personalizzato \n -si crea il prodotto personalizzato e viene inserito nel carrello dell utente che lha creato
+"
+}
+
+U --> UC0
+U --> UC6
+U --> UC7
+U --> UC8
+U -->  UC9  
+
+UC10 .> UC7 : include
+UC10 .> UC11 : include
+UC9 .> UC7 : include
+UC7 .> UC6 : include
+UC8 .> UC10 : include
+
+UC0 <|-- UC9 : estende
+
+UC9 <|-- UC1 : specializza
+UC9 <|-- UC2 : specializza
+UC9 <|-- UC3 : specializza
+UC9 <|-- UC4 : specializza
+UC9 <|-- UC5 : specializza
+
+UC1 -->UC11
+UC2 -->UC11
+UC3 -->UC11
+UC4 -->UC11
+UC5 -->UC11 
+
+note top of UC11
+questo non è un vero propirio caso d'uso
+ma comodo per capire come funzona il sistema
+end note
+
+note " con INCLUDE, in questo caso, non indichiamo il fatto che per svolgere il caso d'uso esterno, \n bisogna svolgere in quel momento,il caso d'uso incluso. Ma è un inclusione logica. \n ex<<se non mi registro non posso accedere>>    " as N1
+note "uso la SPECIALIZZAZIONE e non l ESTENSIONE in quanto \n devo fare in modo che il caso d'uso base abbia almeno un caso d'uso che lo specializzi. \n Usando l'estensione dovevamo garantire che il caso d'uso base funzionasse \n anche senza alcun caso che li specializzasse " as N2
+note "descrizione dei casi d'uso: \n -nome del caso; \n -id del caso; \n -breve descrizione; \n -preCondizioni e postCondizioni; \n -sequenza di eventi che svolti nel caso;" as N3
+
+@enduml
+

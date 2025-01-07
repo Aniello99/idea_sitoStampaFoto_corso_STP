@@ -1,0 +1,61 @@
+https://editor.plantuml.com/uml/XLNDJXj13Bv7oZjONBWGbF0FGWX4KmcffKWX5rG9JMQTC69sl9sPJTkqVP--Hr-izknks4Ke72BDs9_jpvxFcyiGbOzbRlizY_C8aS2RnLE4p7ZKqP3hzyApSONoAWUb8_b9_6aHr7SCb6E_r-ybAqmZkiZs05Cn5ae_gmM2oL0z1XDf4bLUg8yKwL6J3_GukR-3N_qUG1bGgu2mHI6WNweLLqMm9aJZ20gFgvNPIeclXnryI2bXpZaXbA2v4rK3Hvk04Ms3s-lW2cHYJbcpMjKiek8ZQ78fk0xQVoVeVX2UZ8-lmmxU2Ik8-UidevOcXVBCQKtqi1FiSS7ZyLLWZJZg89JM60BnasagNQmnnnsCSKj3G3upwoGd7O3ss73pb55SjtBQWUMKcRdHIbx0exKDQZHy9nkqXx1EFagFL_t-Y9QcC1XSLA_V78zUZiSlnvFcA1GbdE_C0dOJ3ix0E6tB3DlcqQXhFtqJVLnPZxhMaph5i6qMnn3EVmy6YSKPOE3LQ3odZKVAXWArgRhl-FOs-FOt-0us-0vV-z8GP5hLnALgwxBVlXoqBuVD9StN4Izzf09eNZ_Tjv8R9d2iu7z_eNImH2zhJ8NnB3VM0a6sNGRgzt9PBLPF4W9x685YGPYNRiN206CXiD8nPy8yH91owx9RQKrkRgy_JJ-CT_W5eAujDNOI0-Co8okLawIQAn6TVi9KBop9Bf0hikU5LNekxpZ-guEP2RHW6Y_GLCD2pYHTf9rkQD90e5tuhEhUAqlrGQC5xyYkfCKVv-Uy4K8mDr0lSpMoWkgjnOphNR2K0T9Ut8wQhgMILJ2v6r_VN7swUNYuUhZvSZk6Ag65yUH-V3j9faHNCL6fck6IU0HL5sdgCebk1pFPL3MR6GNASeiaJRJy4c6f9IIJ6fe6vJYVtKvQh_hDQ8bB6Vo2_pjSJ4_xTZrvR0vH_FcNPCe9Bg1R2GdT44YbJLl3WgzcioUQk6I1y3_PVm00
+
+
+@startuml
+left to right direction
+skinparam actorStyle awesome
+
+actor Utente as U
+
+package idea_sitoStampaFoto_corso_STP {
+  usecase "osservazione listino prezzi" as UC0
+  usecase "stampa foto su carta" as UC1
+  usecase "stampa foto su tela" as UC2
+  usecase "personalizzazione tazza con foto" as UC3
+  usecase "personalizzazione T-shirt con foto" as UC4
+  usecase "personalizzazione portachiavi con parola" as UC5
+  usecase "registrazione" as UC6
+  usecase "accesso account" as UC7
+  usecase "invio ordine" as UC8
+  usecase "creazione prodotto" as UC9
+  usecase "modifica carrello" as UC10
+  usecase "creazione prodotto personalizzato" as UC11
+  
+  
+}
+
+U --> UC0
+U --> UC6
+U --> UC7
+U --> UC8
+U -->  UC9  
+
+UC10 .> UC7 : include
+UC10 .> UC11 : include
+UC9 .> UC7 : include
+UC7 .> UC6 : include
+UC8 .> UC10 : include
+
+UC0 <|-- UC9 : estende
+
+UC9 <|-- UC1 : specializza
+UC9 <|-- UC2 : specializza
+UC9 <|-- UC3 : specializza
+UC9 <|-- UC4 : specializza
+UC9 <|-- UC5 : specializza
+
+UC1 -->UC11
+UC2 -->UC11
+UC3 -->UC11
+UC4 -->UC11
+UC5 -->UC11 
+
+note top of UC11
+questo non è un vero propirio caso d'uso
+ma comodo per capire come funzona il sistema
+end note
+
+note " con INCLUDE, in questo caso, non indichiamo il fatto che per svolgere il caso d'uso esterno, \n bisogna svolgere in quel momento,il caso d'uso incluso. Ma è un inclusione logica. \n ex<<se non mi registro non posso accedere>>    " as N1
+note "uso la SPECIALIZZAZIONE e non l ESTENSIONE in quanto \n devo fare in modo che il caso d'uso base abbia almeno un caso d'uso che lo specializzi. \n Usando l'estensione dovevamo garantire che il caso d'uso base funzionasse \n anche senza alcun caso che li specializzasse " as N2
+
+@enduml

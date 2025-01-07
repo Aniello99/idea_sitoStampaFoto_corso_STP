@@ -1,0 +1,18 @@
+APPROCCIO AGILE ALL'ANALISI DEL SISTERMA: "USER STORY"
+
+Tramite tale approccio non occorre caratterizzare l'intero sistema ma si va a studiare solo una piccola parte del problema tramite particolari richieste che i clienti vogliono che il sistema risolvi.
+
+In questo modo, il programmatore sa quali sono i problemi su cui prima concentrarsi e quali sono le strutture specifiche da implementare in modo più efficiente (visto che si possono individuare richieste più comuni di altre, fatte dagli utenti)
+
+ex:
+user_story_1 >> "come utente, voglio capire quali servizi offre tale app e poter vedere i prezzi dei singoli articoli in modo da poter far un confronto con i prezzi dei competitors."
+
+
+user_story_2 >> "come utente, voglio stampare le foto he ho fatto con il cellulare nella scorsa vacanza per poterle conservare in modo cartaceo. Voglio anche un bel quadro con la stampa della bellissima spiaggia bianca che ho visitato "
+
+user_story_3 >> "come utente, voglio regalare ad un mio amico per la sia laurea una maglietta nera con la stampa di una sua foto imbarazzante sul fronte"
+
+user_story_4 >> "come utente, voglio stampare le foto che ho fatto con la mia fidanzata per poter creare un album stile vintage. Sarebbero perfette stampe stile polaroid."
+
+
+Traite queste richeste da parte degli utenti si riesce a capire meglio quali sono le pricipali funzioni che l app deve possedere e come essere più efficaci rispetto alle soluzioni dei competitors.

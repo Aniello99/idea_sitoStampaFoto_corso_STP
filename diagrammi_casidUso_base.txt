@@ -1,0 +1,40 @@
+https://editor.plantuml.com/uml/VPDFQ-D03CNlyob4UpRizZzBAOL2puMajmMZ7Ik9g3Co8pcbxlQxLtRShDUKtFpU_9v6bkLxDSpMRkjGqyh013AlDmOLPuh6aeA-S6emunOmckI5lTK4-4egMmezX6djpf8RBf-DaX6yXm65lIoJf3BJcjKo-WMeq9Rk_0_DWHm-GXWukFrR5Bq3lqWThYWayLjC6f3L_k2RAYCBlzFtVOJGO7p1DG5NXAMooS9ms-2Zc9HHiagvM3xvom2qIX6Lu4HKAU-myy4Gr5w9aq2JgUlufE_x-U775DUX8Aoy8cWBqKUD8_Vp26TKVs5dKwmXRofXpLqtjc3eZn0b3TanStuyionqmzdcgOlZgKQyzxXXtF6Gz9MGGvUNq-pNY8VS25nD0OoHLFqxnoXjiX6vdYASTYmWkU93YHi_XyDI5CLTFsmupLHDdQkzuzO_v4_TqcZut6VwRARFP_fYfYzd-dgcRqOTxdtx-l_g4m00
+
+
+@startuml
+left to right direction
+skinparam actorStyle awesome
+rectangle Tipi_Utente {
+actor Utente_non_registrato as u_n_r
+actor Utente_registrato as u_r
+}
+
+u_n_r <|-- u_r :estende
+note top of u_r : Utente_registrato estende \n Utente_non_registrato
+
+package idea_sitoStampaFoto_corso_STP {
+  usecase "osservazione listino prezzi" as UC0
+  usecase "stampa foto su carta" as UC1
+  usecase "stampa foto su tela" as UC2
+  usecase "personalizzazione tazza con foto" as UC3
+  usecase "personalizzazione T-shirt con foto" as UC4
+  usecase "personalizzazione portachiavi con parola" as UC5
+  usecase "registrazione" as UC6
+  usecase "accesso account" as UC7
+  usecase "invio ordine" as UC8
+   
+}
+
+u_n_r--> UC0 #red
+u_n_r--> UC6 #red
+
+u_r--> UC0 #blue
+u_r-->UC1 #blue
+u_r-->UC2 #blue
+u_r-->UC3 #blue
+u_r-->UC4 #blue
+u_r-->UC5 #blue
+u_r-->UC7 #blue
+u_r-->UC8 #blue
+
+@enduml

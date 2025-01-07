@@ -1,0 +1,45 @@
+https://editor.plantuml.com/uml/fPDDJiD038NtSmgBJTCD1oWBgFWHbOgGk86LkAabPnpDE47qDDo5Y-5fQ0iia81i9XFvVNv-LgwoORAXan2CJIZSCBO9kmwX8H42DEEHxUqL6eQpXyURrTtgUWdNowUds_NwyInGR62IXZqBmcBaFA3mReTGOqhEKS2SjMOq3IWomxhM8Tf507-Y6a7YTck18-1Wsg5nhS02cRDHLpYr2YMtuHzD3TsQ6xB1xG53dxHHVmsHvDJJtVUzSBtT2rjXoBL6A-Na7etFI_yoGB4GU5EDWpAGSCSH4nsm2g6db3LEG_czmLERopdObY9KKUVESmh7aOjSPfeQZlIjOj5x6DYsxAc886JQiKQ2U-senvPAAjcqzuCaKvLvhzfJZyoB7q0hhrGurHrWiU5DE28JzOHMC1y3Js9VeMVlwNqT-O-hYeEEUbXO-EL29eVml6KNLwUre5ZIer5FbpDKBvJdHJQb_Byj74FxdFzlmfwYFXnNVlelzWu0
+
+
+@startuml
+
+title
+Diagramma delle attività di "MODIFICA CARRELLO"
+end title
+
+start 
+:visualizza carrello associato
+all'account;
+    note right
+in automatico il sistema cacolerà il totale di tutti i prodotti
+nel carrello e applicherà gli sconti previsti.
+   end note
+if(vuoi eliminare prodotto 
+personalizzato dal carrello?) then (no)
+  if(inviare l'ordine?) then (no)
+  :passaggio alla sezione Homepage;
+  stop
+  else(si)
+  :invia l'ordine;
+  :passaggio alla sezione Invio ordine;
+  stop
+  endif
+else(si)
+repeat
+  :eliminazione articolo personalizzato;
+    note right
+in automatico il sistema cacolerà il nuovo totale 
+e applicherà gli sconti previsti.
+   end note
+repeat while (eliminare altro articolo?) is (yes) not (no)
+if(inviare l'ordine?) then (no)
+  :passaggio alla sezione Home;
+  stop
+else(si)
+  :passaggio alla sezione Invio ordine;
+  stop
+endif
+
+endif
+
+@enduml

@@ -1,0 +1,167 @@
+https://editor.plantuml.com/uml/xLZDRjim3BxxAOZjaWBh7g05jWvhWHKOcg8jTYXsOMt68IfBXYItM9vcxx8N6sNPjThONOBzODZYIsAR8Z-A7pzPEd8UhMygbMMUlQBicB6qM5K81Ib5WDxp7VjlNw5WU36_l3ov-FJk-dH-TW8VJo-lJi_cS7vnSdrz2f_X_SL9z-hyOduylxgQlyX85n0zPssexE2ENOEALok4fQde5TJM54R2I0HN6yqth1W8p691rdS8w31pz-pp9SnSJifZFyf0WM2S8tk7blQo71t132HMLICiZ1Yu1dA9ZB2N0QJXMP3L8Moq8_59gvKv53DUp1wSWcDT6cKUGhxT0xya3JDjWajnMgDpM9Pi09L2SBHYema-I7urbdJOMZblQlb3oj7CSJioHHCcMtco6aE-0LN15MaddZZOrcI1rP1tEmy1DKVS7ADiYtrZ-4C6uKgpwADsbLb8nR0FqyvihYG0vqiQp9zaNWlYMFW5Q_QD7O8Epal592ar6dihV4WdXT9TBslMjmUvfO4iXqzjjhqN88qdBRHKfYmncSyH002MQaA__ln02CbvvESQ9dczO2a8wAOYAxDdQgQs7IS7n3XmlsIPovdGo4PJGSSEPb_8xQsb0h3_Hayx6q6LbeoTnxvj8i30JrDggSw8pnlCR-_H5d3WqABMCannnS9r0j_uC9-TdnzcrmtiYV0uoxydIL7CoXIya3BBU6dShfhIrriNj7SaEUj-D6-H_aZjVoPFQG8fOIFmBGrw94ESqT7bZ_hYESKP2PZeJdAr4fJ8MF96otoDTPtHigR8sXP48KPSjvf8Q6mInt1DevfA-brEpicpF3UDzXkcFvfYUZ-5OsEnduh-E78RfgLEROGFXeiqukFLTX3vN9Oaow45uCROmZmdzj6OVbRfTygzK-wTSk-KUnhN_wRSmrt_j_-Ts4LvagYj73tvUfUTHaliAkvM0iLRs_Mz2OnyopziSwOrVXE1_qCA_xY_u_R6M4kov-dQMKetAjcEnnQCVutPwOF1u3Tn-aalzRnDPodwynYeAdCToRn-4X0ed7oM29GuXEAUkpyNwAujFr5szDtHTopknlIzsdTBjdwQmEd94QMQguqGodAvRAdYg6o4NmBKK_XE5QO5hXI1oi57w05q_3gBuDhHMG9x6c5jhCTyoNZ7BSfQzW9g_SXj4kUl0ThX3AUEyRWmouxaVpZV_0u0
+
+
+
+@startuml
+
+title
+Diagramma delle attività di "OSSERVAZIONE LISTINO PREZZI \ CREAZIONE PRODOTTO"
+end title
+
+start
+:visualizza home, prodotti disponibili e offerte attive;
+switch (scelta prodotto da osservare)
+case ( stampa foto su carta )
+  :visualizza i tipi di foto e prezzo;
+  if(osservare singolo prodotto?) then (no)
+    :passaggio alla sezione Homepage;
+    stop
+  else(si)
+   :visualizza le alternative di dimensioni
+   per il prodotto scelto e i prezzi;
+      if(osservare singolo prodotto?) then (no)
+       :passaggio alla sezione Homepage;
+       stop
+      else(si)
+        if(scelta fatta) then (foto classiche)
+        :visualizza le possibili finiture;
+           if(scegliere una finitura?) then (si)
+               #pink:crea prodotto;
+               
+               
+               
+               if(utente loggato?) then (si)
+                 repeat
+                 :carica foto;
+                 :fissa numero copie della foto;
+                 repeat while (altra foto?) is (yes) 
+                 ->no;
+                 repeat
+                 :visualizza lista foto e copie per ognuna;
+                 backward :saranno eliminate tutte le copie;
+                 repeat while (eliminare una foto?) is (yes)
+                 ->no;
+                 repeat
+                 :visualizza lista foto e copie per ognuna;
+                 backward :sarà modificato il numero di copie della foto;
+                 repeat while (modificare n copie di una foto?) is (yes)
+                 ->no; 
+                 :visualizza lista foto e copie per ognuna;
+                 if(annullare prodotto personalizzato?) then (si)
+                 :passaggio alla sezione Home;
+                 stop
+                 else(no)
+                 endif
+                 :conferma creazione 
+                 prodotto personalizzato; 
+                 stop
+               else(no)
+                 :passaggio alla sezione Acesso account;
+                 stop
+               endif
+               
+           else(no)
+               :passaggio alla sezione Homepage;
+               stop
+           endif
+        else(foto polaroid)
+          :visualizza i possibili colori del bordo;
+           if(scegliere un colore?) then (si)
+               #pink:crea prodotto;
+               if(utente loggato?) then (si)
+                 repeat
+                 :carica foto;
+                 :fissa numero copie della foto;
+                 repeat while (altra foto?) is (yes) 
+                 ->no;
+                 repeat
+                 :visualizza lista foto e copie per ognuna;
+                 backward :saranno eliminate tutte le copie;
+                 repeat while (eliminare una foto?) is (yes)
+                 ->no;
+                 repeat
+                 :visualizza lista foto e copie per ognuna;
+                 backward :sarà modificato il numero di copie della foto;
+                 repeat while (modificare n copie di una foto?) is (yes)
+                 ->no; 
+                 :visualizza lista foto e copie per ognuna;
+                 if(annullare prodotto personalizzato?) then (si)
+                 :passaggio alla sezione Home;
+                 stop
+                 else(no)
+                 endif
+                 :conferma creazione 
+                 prodotto personalizzato; 
+                 stop
+               else(no)
+                 :passaggio alla sezione Acesso account;
+                 stop
+               endif
+               
+           else(no)
+               :passaggio alla sezione Homepage;
+               stop
+           endif
+        endif
+     endif
+  endif
+  
+case ( stampa foto su tela ) 
+  :visualizza le varie dimnsioni di tela e i prezzi;
+         if(scegliere una dimensione?) then (si)
+            #pink:crea prodotto;
+                if(utente loggato?) then (si)
+                 repeat
+                 :carica foto;
+                 repeat while (foto corretta?) is (no) 
+                 ->si;
+                 :conferma creazione 
+                 prodotto personalizzato; 
+                 stop
+               else(no)
+                 :passaggio alla sezione Acesso account;
+                 stop
+               endif            
+         else(no)
+               :passaggio alla sezione Homepage;
+               stop
+         endif
+         
+case ( personalizzazione tazza con foto )
+  :visualizza i vari colori della tazza e il prezzo;
+         if(scegliere un colore?) then (si)
+            #pink:crea prodotto;
+                if(utente loggato?) then (si)
+                 repeat
+                 :carica foto;
+                 repeat while (foto corretta?) is (no) 
+                 ->si;
+                 :conferma creazione 
+                 prodotto personalizzato; 
+                 stop
+               else(no)
+                 :passaggio alla sezione Acesso account;
+                 stop
+               endif            
+         else(no)
+               :passaggio alla sezione Homepage;
+               stop
+         endif
+         
+case ( personalizzazione T-shirt con foto )
+  :visualizza alternative e prezzi;
+   note right
+   segue la stessa logica degli altri casi.
+   end note
+   stop
+   
+case ( personalizzazione portachiavi con parola )
+  :visualizza alternative e prezzi;
+    note right
+   segue la stessa logica degli altri casi.
+   end note
+  stop
+  
+endswitch
+
+@enduml
