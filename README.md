@@ -1,3 +1,4 @@
+(github modifica la formattazione. si consiglia la lettura da file)
 # idea_sitoStampaFoto_corso_STP
 Test creazione, tramite java, di un applicativo che vada a ricreare un sito per un service di stampa foto digitali e personalizzazione di gudget.
 
